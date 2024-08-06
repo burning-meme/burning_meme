@@ -4,43 +4,30 @@ Welcome to the Burning Meme project's official repository for smart contracts! T
 Overview
 Burning Meme is a memecoin launchpad that enables users to create, mint, and burn memes as NFTs. Our smart contracts are designed to facilitate these actions and ensure a seamless experience for users. The project is built on the principles of transparency, security, and community involvement.
 
-Features
+Features:
+
 Minting NFTs: Users can mint NFTs by mixing burning mascots and memes.
 Burning NFTs: Users can burn their NFTs to participate in various activities and earn points.
 Airdrops: Participants qualify for airdrops based on their activity and engagement.
 Leaderboard: Track your progress and see how you rank against other participants.
-Repository Structure
-lua
-Copy code
-contracts/BurningMeme/
-├── contracts
-│   ├── BurnCoin.sol
-│   ├── BurningMemeBet.sol
-│   ├── BurningMemeFactory.sol
-│   ├── IBurningMemeBet.sol
-│   ├── MemeCoin.sol
-│   └── MemeCoinFactory.sol
-├── test
-│   ├── BurningMemeBet.js
-│   ├── BurningMemeFactory.js
-│   ├── MemeCoinFactory.js
-│   ├── hardhat.config.js
-│   └── remix-compiler.config.js
-├── package-lock.json
-└── package.json
-Smart Contracts
+
+Smart Contracts:
+
 BurnCoin.sol: Defines the token used within the Burning Meme ecosystem.
 BurningMemeBet.sol: Manages betting functionality related to Burning Meme activities.
 BurningMemeFactory.sol: Factory contract for creating new instances of Burning Meme contracts.
 IBurningMemeBet.sol: Interface for the BurningMemeBet contract.
 MemeCoin.sol: Defines the MemeCoin token.
 MemeCoinFactory.sol: Factory contract for creating new MemeCoin tokens.
-Tests
+
+Tests:
+
 BurningMemeBet.js: Tests for the BurningMemeBet contract.
 BurningMemeFactory.js: Tests for the BurningMemeFactory contract.
 MemeCoinFactory.js: Tests for the MemeCoinFactory contract.
 hardhat.config.js: Configuration file for Hardhat.
 remix-compiler.config.js: Configuration file for Remix IDE.
+
 Getting Started
 Prerequisites
 Node.js
@@ -72,6 +59,7 @@ bash
 Copy code
 npx hardhat test
 Contributing
+
 We welcome contributions from the community! Please read our CONTRIBUTING.md file for more information on how to get involved.
 
 License
